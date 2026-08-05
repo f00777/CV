@@ -1,0 +1,125 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+% Color azul para los enlaces idéntico a la imagen
+\definecolor{linkblue}{RGB}{17, 85, 204}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue
+}
+
+% Comando para las secciones con línea superior
+\newcommand{\cvsection}[1]{
+    \vspace{1em}
+    \hrule height 1pt
+    \vspace{0.4em}
+    \begin{center}
+        \textbf{\large #1}
+    \end{center}
+    \vspace{-0.5em}
+}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+% Encabezado Principal
+\begin{center}
+    \noindent\makebox[\linewidth]{\rule[0.7ex]{0.28\textwidth}{1pt}\hfill \Large\textbf{FELIPE MATURANA ARAYA} \hfill\rule[0.7ex]{0.28\textwidth}{1pt}}
+\end{center}
+
+
+% Introducción al CV
+\vspace{0.3em}
+Estudiante de cuarto año de Ingeniería Civil en Informática y Telecomunicaciones (Top 7 de generación). Cuento con experiencia académica previa como ayudante de laboratorio y corrector, trayectoria en la industria privada como Ingeniero de Datos y Desarrollador, y liderazgo institucional como Secretario General del Centro de Alumnos. Mi objetivo es asumir ayudantías en asignaturas orientadas al área de Datos, Algoritmos e Inteligencia Artificial.
+% Fin de la introducción al CV
+
+% Contacto
+\cvsection{CONTACTO}
+\begin{center}
+    \small +56 9 5807 6004 \enspace$\cdot$\enspace \href{mailto:felipe.maturana1@mail.udp.cl}{\underline{felipe.maturana1@mail.udp.cl}} \enspace$\cdot$\enspace \href{https://www.linkedin.com/in/felipe-maturana1}{\underline{linkedin.com/in/felipe-maturana1}} \enspace$\cdot$\enspace \href{https://github.com/f00777}{\underline{github.com/f00777}}
+\end{center}
+
+% Experiencia
+\cvsection{EXPERIENCIA}
+
+\noindent Universidad Diego Portales, Santiago, Chile \hfill 2.º Sem. 2025 – 1.er Sem. 2026\\[0.2em]
+\textbf{Ayudante Corrector – Señales y Sistemas}
+\vspace{-0.3em}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, parsep=0pt]
+    \item Corrección y evaluación de Solemnes 1, 2 y Exámenes finales del curso.
+    \item Apoyo presencial durante la toma de evaluaciones en aula.
+\end{itemize}
+
+\vspace{0.8em}
+\noindent Universidad Diego Portales, Santiago, Chile \hfill 1.er Sem. 2025\\[0.2em]
+\textbf{Ayudante de Laboratorio – Calor y Ondas}
+\vspace{-0.3em}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, parsep=0pt]
+    \item Apoyo en la ejecución de experiencias prácticas de laboratorio.
+    \item Asistencia en el uso del software \textit{PASCO Capstone} para la adquisición y análisis de datos.
+    \item Revisión de informes de laboratorio.
+\end{itemize}
+
+\vspace{0.8em}
+
+\noindent Turismo Zahr, Santiago, Chile \hfill Dic 2024 – Presente\\[0.2em]
+\textbf{Data Engineer \& Full Stack Developer (Práctica y Consultoría Continuada)}
+\vspace{-0.3em}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, parsep=0pt]
+    \item Desarrollé procesos ETL automatizados con Node.js, Python (Pandas), React y web scraping para la actualización continua de datos desde el ERP Sigav2.0 hacia SQL Server.
+    \item Creé paneles en Power BI y hojas de cálculo conectadas en tiempo real a bases de datos.
+    \item Administré servidores MSSQL, gestionando tablas, vistas, stored procedures y triggers.
+    \item Gestioné sitios web corporativos en WordPress + Elementor.
+\end{itemize}
+
+\vspace{0.8em}
+\noindent Fundación Belén 2000, Santiago, Chile \hfill Ene 2026 – Feb 2026\\[0.2em]
+\textbf{Voluntario de Informática / IT \& Data Analyst}
+\vspace{-0.3em}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, parsep=0pt]
+    \item Implementé flujos de ETL utilizando Python y Pandas para la limpieza de datos.
+    \item Gestioné y analicé datos en Salesforce para la toma de decisiones operativas.
+    \item Brindé soporte técnico integral a la infraestructura informática (routers, red, impresoras y estaciones de trabajo).
+\end{itemize}
+
+\vspace{0.8em}
+\noindent \href{https://www.4founders.cl}{\underline{4Founders IT Services}}, Santiago, Chile \hfill Sep 2023 – Presente\\[0.2em]
+\textbf{Fundador \& Full Stack Developer}
+\vspace{-0.3em}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt, parsep=0pt]
+    \item Construcción de aplicaciones web (Next.js, Astro, React) y móviles (React Native, Flutter).
+    \item Administración de bases de datos relacionales (PostgreSQL/Supabase) y NoSQL (MongoDB) en VPS.
+    \item Diseño de microservicios contenerizados con Docker y gestión de cache/mensajería con Redis.
+    \item Levantamiento de requerimientos técnicos y definición de propuestas comerciales con clientes.
+\end{itemize}
+
+% Educación
+\cvsection{EDUCACIÓN}
+
+\noindent Universidad Diego Portales, Santiago, Chile \hfill 2023 – Presente\\[0.2em]
+\textbf{Ingeniería Civil en Informática y Telecomunicaciones}
+\vspace{-0.3em}
+
+\vspace{0.8em}
+\noindent Universidad Diego Portales, Santiago, Chile \hfill 2024 – Presente\\[0.2em]
+\textbf{Diploma de Honor en Gestión de la Innovación}
+
+
+% Habilidades Profesionales y Personales
+\cvsection{HABILIDADES PROFESIONALES Y PERSONALES}
+\begin{center}
+    \small Idiomas: Español (nativo), Inglés B2 (TOEFL iBT: 90/120).
+\end{center}
+
+\end{document}
